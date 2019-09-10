@@ -143,7 +143,7 @@ class charlieBrown extends Component {
                                                 No
                                             </button>
                                             <button>
-                                                Yes
+                                                Your mom!
                                             </button>
                                         </div>
 

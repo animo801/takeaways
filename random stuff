@@ -1,0 +1,53 @@
+        <div className="col-sm-2"> 
+            <audio id="audio" controls>
+                <source id="audioControl" type="x-m4a" src=""/>
+            </audio>    
+            </div>
+            This is the audio controller
+            
+            
+            
+            <div className="col-sm-1">
+            <p>Link to prototype</p>
+            <a href={this.state.linkToPrototype}>
+                <h4>{this.state.linkToPrototype}</h4>
+            </a>
+        </div>
+        
+        This is a link to the prototype
+            
+            
+             // This will not work and I have no idea why. When I console log the URL and copy paste it into a new audio element as the src, it works fine. Something is not working when it is pushing it to the src but I don't know what. 
+//        storageRef.getDownloadURL().then(function(url) {
+//            var img = document.getElementById('audioControl');
+//            img.src = url;
+//        }).catch(function(error) {
+//              switch (error.code) {
+//                case 'storage/object-not-found':
+//                  break;
+//
+//                case 'storage/unauthorized':
+//                  break;
+//
+//                case 'storage/canceled':
+//                  break;
+//
+//                case 'storage/unknown':
+//                  break;
+//                }
+//        });
+            
+//        const itemsRef = firebase.database().ref("7Hl1qt7Nn9dFbM2CnNa2sM95Zcf1" + '/project/' + this.props.match.params.id + '/interviews/' + this.props.match.params.interviewName); 
+//        
+//        console.log("Props", this.props);
+//        
+//        itemsRef.on('value', (snapshot) => {     
+//            this.setState({
+//                name: snapshot.val().interviewName, 
+//                jobTitle: snapshot.val().jobTitle,
+//                jobExperience: snapshot.val().jobExperience,
+//                linkToPrototype: snapshot.val().linkToPrototype
+//                
+//            });
+//            
+//        })

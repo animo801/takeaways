@@ -1,0 +1,60 @@
+[debug] [2019-05-13T23:28:11.434Z] ----------------------------------------------------------------------
+[debug] [2019-05-13T23:28:11.436Z] Command:       /usr/local/Cellar/node/10.11.0/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2019-05-13T23:28:11.436Z] CLI Version:   6.9.2
+[debug] [2019-05-13T23:28:11.436Z] Platform:      darwin
+[debug] [2019-05-13T23:28:11.436Z] Node Version:  v10.11.0
+[debug] [2019-05-13T23:28:11.437Z] Time:          Mon May 13 2019 17:28:11 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-05-13T23:28:11.437Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-13T23:28:11.446Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-13T23:28:11.447Z] > authorizing via signed-in user
+[debug] [2019-05-13T23:28:11.447Z] [iam] checking project takeaways-a50ef for permissions ["firebase.projects.get"]
+[debug] [2019-05-13T23:28:11.448Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/takeaways-a50ef:testIamPermissions  
+
+[debug] [2019-05-13T23:28:12.207Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-13T23:28:12.210Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/takeaways-a50ef  
+ 
+[debug] [2019-05-13T23:28:12.914Z] <<< HTTP RESPONSE 200
+[debug] [2019-05-13T23:28:12.916Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/225761571590/clients/_:getWebAppConfig  
+ 
+[debug] [2019-05-13T23:28:13.792Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: y
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-05-13T23:30:51.333Z] ----------------------------------------------------------------------
+[debug] [2019-05-13T23:30:51.335Z] Command:       /usr/local/Cellar/node/10.11.0/bin/node /usr/local/bin/firebase init
+[debug] [2019-05-13T23:30:51.335Z] CLI Version:   6.9.2
+[debug] [2019-05-13T23:30:51.336Z] Platform:      darwin
+[debug] [2019-05-13T23:30:51.336Z] Node Version:  v10.11.0
+[debug] [2019-05-13T23:30:51.336Z] Time:          Mon May 13 2019 17:30:51 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-05-13T23:30:51.336Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-13T23:30:51.345Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-13T23:30:51.345Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/animo801/Documents/Takeaways/takeaways
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2019-05-13T23:33:52.278Z] ----------------------------------------------------------------------
+[debug] [2019-05-13T23:33:52.280Z] Command:       /usr/local/Cellar/node/10.11.0/bin/node /usr/local/bin/firebase use --add
+[debug] [2019-05-13T23:33:52.280Z] CLI Version:   6.9.2
+[debug] [2019-05-13T23:33:52.280Z] Platform:      darwin
+[debug] [2019-05-13T23:33:52.281Z] Node Version:  v10.11.0
+[debug] [2019-05-13T23:33:52.281Z] Time:          Mon May 13 2019 17:33:52 GMT-0600 (Mountain Daylight Time)
+[debug] [2019-05-13T23:33:52.281Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-05-13T23:33:52.290Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-05-13T23:33:52.290Z] > authorizing via signed-in user
+[debug] [2019-05-13T23:33:52.292Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ 
+[debug] [2019-05-13T23:33:53.298Z] <<< HTTP RESPONSE 200
